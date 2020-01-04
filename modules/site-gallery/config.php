@@ -43,8 +43,7 @@ return [
         'classes' => [
             'SiteGallery\\Controller' => [
                 'type' => 'file',
-                'base' => 'app/site-gallery/controller',
-                'children' => 'modules/site-gallery/controller'
+                'base' => ['app/site-gallery/controller','modules/site-gallery/controller']
             ],
             'SiteGallery\\Library' => [
                 'type' => 'file',
